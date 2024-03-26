@@ -1,6 +1,6 @@
-**Forest Fire Prediction Project**
+## **Forest Fire Prediction Project**
 
-**Introduction:**
+### **Introduction:**
 This project aims to predict forest fires using machine learning models. Forest fires pose a significant threat to natural ecosystems and human lives. Early detection and prediction of forest fires can help in timely intervention and mitigation efforts.
 
 **Dataset:**
