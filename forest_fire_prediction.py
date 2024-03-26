@@ -184,14 +184,12 @@ print ('Evaluating the model trained data \n')
 tree_pred_train_label = tree.predict(X_train)
 accuracy = accuracy_score(y_train, tree_pred_train_label)
 
-rmse = np.sqrt(mse)
 print(f"Evaluating the Standard Model: accuracy score: {accuracy} \n")
 
 # hyperparameters
 tree_pred_train_label = best_tree_mod.predict(X_train)
 accuracy = accuracy_score(y_train, tree_pred_train_label)
 
-rmse = np.sqrt(mse)
 print(f"Evaluating the Hyperparameter Tuned model: accuracy score: {accuracy}")
 
 # Testing data
@@ -201,14 +199,12 @@ print ('Evaluating the model with test data \n')
 tree_pred_test_label = tree.predict(X_test)
 accuracy = accuracy_score(y_test, tree_pred_test_label)
 
-rmse = np.sqrt(mse)
 print(f"Evaluating the Standard model: accuracy score: {accuracy} \n")
 
 # hyperparameters
 tree_pred_test_label = best_tree_mod.predict(X_test)
 accuracy = accuracy_score(y_test, tree_pred_test_label)
 
-rmse = np.sqrt(mse)
 print (f"Evaluating the Hyperparameter Tuned model: accuracy score: {accuracy} \n")
 
 # Confusion Matrix
